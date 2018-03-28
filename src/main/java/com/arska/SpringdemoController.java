@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SpringdemoController {
   @RequestMapping("/")
   public String index() {
-    return "Hello!";
+    return "Springboot demo landing page";
   }
+  
+  @RequestMapping("/hello")
+  public String helloWorld() {
+	  return "Hello World!";
+  }
+
 }
