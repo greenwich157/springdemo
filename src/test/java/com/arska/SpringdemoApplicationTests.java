@@ -11,6 +11,7 @@ public class SpringdemoApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		fail("Not yet implemented");
 	}
 
 }
